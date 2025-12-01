@@ -57,30 +57,6 @@ python src/inference.py --text "यह बहुत गंदी भाषा �
 
 text
 
-## 📁 Project Structure
-
-hindi-hate-speech-detection/
-├── data/
-│ ├── raw/ # CodaLab + VictorKnox datasets
-│ ├── processed/ # Cleaned + augmented data
-│ └── augmentation.py # Hindi-specific augmentation
-├── src/
-│ ├── data/
-│ │ ├── init.py
-│ │ ├── download.py # Dataset acquisition
-│ │ └── preprocessor.py # Tokenization + cleaning
-│ ├── models/
-│ │ ├── indicbert_lora.py # Main SOTA model
-│ │ ├── baselines.py # CNN, SVM, etc.
-│ │ └── trainer.py # Training loop
-│ ├── train.py # Main training script
-│ └── inference.py # Prediction pipeline
-├── models/ # Saved checkpoints
-├── notebooks/ # EDA + experiments
-├── configs/ # Model hyperparameters
-├── results/ # Metrics + visualizations
-├── tests/ # Unit tests
-└── README.md
 
 text
 
@@ -240,9 +216,9 @@ text
 
 ## 👥 Authors
 
-- **Deepanshu Mehra** - [LinkedIn](https://linkedin.com/in/deepanshu-mehra)
-- **Ankit Das** - [GitHub](https://github.com/ankitdas)
-- **Aaryan Brar** - [Portfolio](https://aaryanbrar.com)
+- **Deepanshu Mehra** - [LinkedIn](https://www.linkedin.com/in/deepanshu-mehra-17302824a/)
+- **Ankit Das** - [GitHub](https://github.com/Ankyytt)
+- **Aaryan Brar** - [LinkedIn](https://www.linkedin.com/in/aaryan-brar-758a332bb/)
 
 ## 💬 Contact
 
